@@ -1,6 +1,10 @@
 // navigation Data
 export const navItems = [
   {
+    title: "Fashion finder",
+    url: "/fashion-finder",
+  },
+  {
     title: "Home",
     url: "/",
   },

@@ -22,6 +22,7 @@ import {
   OrderDetailsPage,
   TrackOrderPage,
   UserInbox,
+  FashionFinder,
 } from "./routes/Routes";
 import {
   ShopDashboardPage,
@@ -112,6 +113,7 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
         <Route path="/best-selling" element={<BestSellingPage />} />
+        <Route path="/fashion-finder/*" element={<FashionFinder />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route
